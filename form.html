@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        input[type='text']{
+            width:90%;
+            height: 20px;
+            border: 0px;
+            outline: none;
+        }
+        input[type='date']{
+            width:90%;
+            height: 20px;
+            border: 0px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+   
+    <form action="" method="post">
+        <table border="1" cellspacing="0" width="80%" align="center">
+            <tr bgcolor="purple">
+                <td colspan="2" align="center"><font face="Monotype Corsiva" size="5" color="white"><b>School Registration Form</b></font></td>
+            </tr>
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" name="c_name"> </td>
+            </tr>
+            <tr>
+                <td>Class: </td>
+                <td><input type="text" name="c_class"> </td>
+            </tr>
+            <tr>
+                <td>DOB: </td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            
+            <tr>
+                <td>Gender </td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td><input type="file" name="profile" id="box"></td>
+            </tr>
+            
+            <tr>
+                <td><input type="reset"></td>
+                <td align="right"><input type="submit" name="submit"></td>
+            </tr>
+            
+
+        </table>
+    </form>
+
+</body>
+</html>
